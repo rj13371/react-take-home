@@ -1,7 +1,12 @@
 import React from "react";
+import CampaignView from "./views/CampaignView";
 
 function App() {
-  return <div className="App">hello</div>;
+  return (
+    <div>
+      <CampaignView />
+    </div>
+  );
 }
 
 export default App;
